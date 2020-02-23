@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity.NewMainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:src="@mipmap/logo_rtc"
+        android:visibility="visible" />
+
+
+    <LinearLayout
+        android:id="@+id/content_uccid"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:alpha="0.85"
+            android:gravity="start|center_vertical"
+            android:singleLine="true"
+            android:text="用户ID:"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/uccid_edit"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:alpha="0.65"
+            android:background="@drawable/selector_edittext_focus"
+            android:hint="设置uccId"
+            android:inputType="number"
+            android:paddingLeft="12dp"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/loginSDK"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/login_enter"
+        android:text="登录"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

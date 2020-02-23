@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorApp">#FFB27D</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="transparent">#0000</color>
+    <color name="half_transparent">#40FFFFFF</color>
+    <color name="role_selected">#FF582626</color>
+    <color name="role_unselected">#FFEC9C9F</color>
+    <color name="enter_room_selected">#FF582626</color>
+    <color name="enter_room_unselected">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="login_button_default_color">#ff7300</color>
+
+    <color name="login_button_gray">#E7B58C</color>
+
+    <color name="color_red">#EC1414</color>
+
+    <color name="danmaku_color_w">#00ffffff</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="light_gray">#fff5f5f5</color>
+
+</resources>

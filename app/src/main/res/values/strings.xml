@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">直播demo</string>
+
+    <string name="main_audioup">A-%1$skbps\u2191</string>
+    <string name="main_videoups">V-%1$skbps\u2191</string>
+    <string name="exit_window_title">你确定要退出房间吗？</string>
+    <string name="exit_window_yes">是</string>
+    <string name="exit_window_cancel">否</string>
+    <string name="videoly_videodown">V-%1$skbps\u2193</string>
+    <string name="videoly_audiodown">A-%1$skbps\u2193</string>
+
+    <string-array name="gift_name">
+        <item>超级火箭</item>
+        <item>轮船</item>
+        <item>火箭</item>
+        <item>飞机</item>
+        <item>办卡</item>
+
+        <item>大气</item>
+        <item>赞</item>
+        <item>弱</item>
+
+    </string-array>
+
+    <string-array name="gift_price">
+        <item>2000</item>
+        <item>1000</item>
+        <item>500</item>
+        <item>100</item>
+        <item>6</item>
+
+        <item>1</item>
+        <item>0.1</item>
+        <item>0.1</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="channel_type">
+        <item>音频模式</item>
+        <item>视频模式</item>
+        <item>屏幕共享</item>
+        <item>白板共享</item>
+        <!--<item>直播模式</item>-->
+    </string-array>
+
+    <string-array name="user_type">
+        <item>主持人</item>
+        <item>参与者</item>
+        <item>观众</item>
+    </string-array>
+
+
+</resources>
